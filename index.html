@@ -8,14 +8,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Custom Stylesheets -->
-    <link href="/abovethefold.css" rel="stylesheets" >
+    <link href="styles/abovethefold.css" rel="stylesheet" >
     <!-- Scripts for Icons -->
     <script src="https://kit.fontawesome.com/8d9f47f2ed.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    <div class="toggle"></div>
-    <p>Hello</p>
+    <div class="toggle" onclick="toggleMenu();"></div>
+
+    <section class="banner" id="home">
+        <div class="imgSidebar">
+            <img src="images/IMG_2512.jpg">
+        </div>
+
+
+        <div class="about_header">
+            <h5 class="logoText">Welcome To My Portfolio</h5>
+            <h4><span>Hello</span>, I'm</h4>
+            <h2>Hannah Moore</h2>
+            
+            <div class="flex">
+                <h4 style="margin-right: 8px;">I'm a </h4>
+                <h4 class="im profileoption" id="profileoption"> </h4>
+                <h4 class="blink">|</h4>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat possimus sit tempora laudantium? Enim et fugiat culpa natus eius quisquam sit unde! Ipsa amet placeat unde rem officia, illo laboriosam!</p>
+            <a href="#" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <script>
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.toggle');
+            menuToggle.classList.toggle('active');
+        
+        }
+    </script>
+
+
+
+
+
+    <script src="scripts/nametransition.js"></script>
+
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
 </body>
 </html>
