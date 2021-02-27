@@ -1,4 +1,4 @@
-const texts = ["Web Developer", "Programmer", "Problem Solver", "Team Player", "Fast Learner", "Traveler"];
+const texts = ["Web Developer.", "Programmer.", "Problem Solver.", "Team Player.", "Fast Learner.", "Traveler."];
 var count = 0;
 var timer;
 
