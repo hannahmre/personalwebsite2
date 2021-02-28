@@ -9,6 +9,7 @@
 
     <!-- Custom Stylesheets -->
     <link href="styles/abovethefold.css" rel="stylesheet" >
+    <link href="styles/aboutme.css" rel="stylesheet" >
     <!-- Scripts for Icons -->
     <script src="https://kit.fontawesome.com/8d9f47f2ed.js" crossorigin="anonymous"></script>
 
@@ -19,7 +20,7 @@
 
     <section class="banner" id="home">
         <div class="imgSidebar">
-            <img src="images/IMG_2512.jpg">
+            <img src="images/IMG_2253.jpg">
         </div>
 
 
@@ -27,21 +28,56 @@
             <h5 class="logoText">Welcome To My Portfolio</h5>
             <h4><span>Hello</span>, I'm</h4>
             <h2>Hannah Moore</h2>
-            
+            <div class="sq"></div>
             <div class="flex">
                 <h4 style="margin-right: 8px;">I'm a </h4>
                 <h4 class="im profileoption" id="profileoption"> </h4>
                 <h4 class="blink">|</h4>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat possimus sit tempora laudantium? Enim et fugiat culpa natus eius quisquam sit unde! Ipsa amet placeat unde rem officia, illo laboriosam!</p>
-            <a href="#" class="learn">About Me</a>
+            <a href="#about" class="learn">About Me</a>
+
+            <ul class="sci">
+                <li><a href="https://www.linkedin.com/in/hannahcmre" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+                <li><a href="https://github.com/hannahmre" target="_blank"><i class="fab fa-github fa-2x" style="margin-left: 15px;"></i></a></li>
+            </ul>
         </div>
+    
     </section>
+
+    <section class="about" id="about">
+        <div class="title white">
+            <h2>About Me</h2>
+            <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos reprehenderit facere nulla quos voluptatibus quae aspernatur obcaecati earum, accusamus porro? Magnam non corporis iusto libero quia culpa, commodi atque excepturi!</p> -->
+        </div>   
+        <div class="content">
+            <div class="textBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eveniet minima quibusdam aliquam, magni unde voluptate fuga! Iste non 
+                    similique quam repellendus pariatur, et tempora facilis, sequi dolor odit quia! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Adipisci aperiam dolor dolore. Ipsa blanditiis modi odio voluptatum ipsum quos, numquam repudiandae harum quo provident deleniti?  </p>
+            </div>
+            <div class="imgBx">
+                <img src="images/IMG_2213.jpg">
+            </div>
+        </div> 
+            
+    </section>
+
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
 
     <script>
         function toggleMenu(){
             const menuToggle = document.querySelector('.toggle');
+            const sidebar = document.querySelector('.sidebar');
             menuToggle.classList.toggle('active');
+            sidebar.classList.toggle('active');
         
         }
     </script>
