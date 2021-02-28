@@ -1,14 +1,16 @@
 .title {
     width: 100%;
     text-align: center;
+    margin-top: 10px;
 }
 
 .title h2 {
     position: relative;
     /* color: black; */
-    font-size: 2.2em;
+    font-size: 2.4em;
     font-weight: 700;
     letter-spacing: 1px;
+    
 }
 
 .title p {
@@ -17,7 +19,7 @@
 
 }
 
-.title h2::before {
+/* .title h2::before {
     content: '';
     position: absolute;
     left: 50%;
@@ -26,7 +28,7 @@
     width: 60px;
     height: 4px;
     background: #8C472E;
-}
+} */
 .title.white h2,
 .title.white p{
     color: #D9D2CC;
@@ -43,7 +45,7 @@
 .about .content {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .about .content .textBx {
@@ -56,21 +58,4 @@
     color: #fff;
     margin-top: 80px;
     font-weight: 400;
-}
-
-.textBx {
-    /* margin: 0; */
-}
-
-.about .content .imgBx {
-    /* margin-left: 29px;
-    width: 50%;
-    margin-right: 0; */
-}
-
-.about .content .imgBx img {
-    /* width: 80%; */
-    /* max-width: 450px; */
-    /* height: 75%; */
-    /* margin-left: 110px; */
 }
