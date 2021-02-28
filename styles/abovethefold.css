@@ -23,7 +23,7 @@ html {
 	right: 30px;
 	width: 50px;
 	height: 50px;
-	background: #D9D2CC url(../images/menu.png);
+	background:  url(../images/menu.png);
 	background-size: 30px;
 	background-position: center;
 	background-repeat: no-repeat;
