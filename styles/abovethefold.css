@@ -94,9 +94,6 @@ section{
 	right: 0;
 	width: calc(100% - 500px);
 	height: 100%;
-	/* display: flex;
-	justify-content: center;
-	align-items: center; */
 	padding: 100px;
 }
 

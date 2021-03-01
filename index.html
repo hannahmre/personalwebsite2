@@ -10,6 +10,7 @@
     <!-- Custom Stylesheets -->
     <link href="styles/abovethefold.css" rel="stylesheet" >
     <link href="styles/aboutme.css" rel="stylesheet" >
+    <link href="styles/projects.css" rel="stylesheet" >
     <!-- Scripts for Icons -->
     <script src="https://kit.fontawesome.com/8d9f47f2ed.js" crossorigin="anonymous"></script>
 
@@ -63,14 +64,61 @@
             
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <div class="project_menu">
             <ul class="p_menu">
-                <li><a href="">All</a></li>
-                <li><a href="">Web Development</a></li>
-                <li><a href="">Programming</a></li>
-                <li><a href="">Virtual Reality</a></li>
+                <li><a href="#">All</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Programming</a></li>
+                <li><a href="#">Virtual Reality</a></li>
             </ul>
+        </div>
+        <div class="list">
+            <div class="ticker_list">
+                <i class="fas fa-arrow-right fa-3x"></i>
+            </div>
+
+            <div class="project_list" onscroll="scrollFunction()">
+                <div class="item item1">
+                    <p>Year</p>
+                    <h3>Title</h3>
+                    <p>Topic</p>
+                </div>
+                <div class="item item2">
+                    <p>Year</p>
+                    <h3>Title</h3>
+                    <p>Topic</p>
+                </div>
+                <div class="item item3">
+                    <p>Year</p>
+                    <h3>Title</h3>
+                    <p>Topic</p>
+                </div>
+                <div class="item item4">
+                    <p>Year</p>
+                    <h3>Title</h3>
+                    <p>Topic</p>
+                </div>
+                <!-- <ul class="p_list">
+                    <li class="web"><a href="#">Wholesale Product Web Application</a></li>
+                    <li class="web"><a href="#">Informational Business WordPress Template</a></li>
+                    <li class="web"><a href="#">Subscription Business Website Template</a></li>
+                    <li class="web"><a href="#">Blog Template</a></li>
+                    <li class="web"><a href="#">Portfolio Template</a></li>
+
+                    <li class="pro"><a href="#">Research Assistant - VR Training Simulator</a></li>
+                    <li class="pro"><a href="#">IBM Chatbot</a></li>
+                    <li class="pro"><a href="#">Complex Tic-Tac-Toe</a></li>
+                    <li class="pro"><a href="#">Harris Corners Algorithm</a></li>
+                    <li class="pro"><a href="#">Image Stitching Algorithm</a></li>
+                    <li class="pro"><a href="#">Optical Flow Algorithm</a></li>
+                    <li class="pro"><a href="#">Guessing Game</a></li>
+
+                    <li class="vr"><a href="#">Abducted - VR Escape Room</a></li>
+                    <li class="vr"><a href="#">3D Model</a></li>
+                    <li class="vr"><a href="#">3D Model</a></li>
+                </ul> -->
+            </div>
         </div>
     </section>
 
@@ -78,7 +126,7 @@
         <ul class="menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </div>
@@ -98,6 +146,7 @@
 
 
     <script src="scripts/nametransition.js"></script>
+    <script src="scripts/infinitescroll.js"></script>
 
 <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
 </body>
