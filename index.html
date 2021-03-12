@@ -14,6 +14,15 @@
     <!-- Scripts for Icons -->
     <script src="https://kit.fontawesome.com/8d9f47f2ed.js" crossorigin="anonymous"></script>
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -65,61 +74,96 @@
     </section>
 
     <section class="projects" id="projects">
-        <div class="project_menu">
+        <div class="container-fluid" >
+
+            <div class="row">
+
+              <nav class="col-sm-3 col-4" id="navbarr">
+                <ul class="nav nav-pills flex-column">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#section1">Section 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section2">Section 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section3">Section 3</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Section 4</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#section41">Link 1</a>
+                      <a class="dropdown-item" href="#section42">Link 2</a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="col-sm-9 col-8 p_content"  data-spy="scroll" data-target="#navbarr" data-offset="1">
+                <div id="section1" class="bg-success">    
+                  <h1>Section 1</h1>
+                  <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+                </div>
+                <div id="section2" class="bg-warning"> 
+                  <h1>Section 2</h1>
+                  <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+                </div>        
+                <div id="section3" class="bg-secondary">         
+                  <h1>Section 3</h1>
+                  <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+                </div>
+                <div id="section41" class="bg-danger">         
+                  <h1>Section 4-1</h1>
+                  <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+                </div>      
+                <div id="section42" class="bg-info">         
+                  <h1>Section 4-2</h1>
+                  <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="project_menu">
             <ul class="p_menu">
                 <li><a href="#">All</a></li>
                 <li><a href="#">Web Development</a></li>
                 <li><a href="#">Programming</a></li>
                 <li><a href="#">Virtual Reality</a></li>
             </ul>
-        </div>
-        <div class="list">
-            <div class="ticker_list">
-                <i class="fas fa-arrow-right fa-3x"></i>
-            </div>
+        </div> -->
+                
+            <!-- <ul class="p_list">
+                <li class="web"><a href="#">Wholesale Product Web Application</a></li>
+                <li class="web"><a href="#">Informational Business WordPress Template</a></li>
+                <li class="web"><a href="#">Sign In / Sign Up Page</a></li>
+                <li class="web"><a href="#">Portfolio Template</a></li>
 
-            <div class="project_list" onscroll="scrollFunction()">
-                <div class="item item1">
-                    <p>Year</p>
-                    <h3>Title</h3>
-                    <p>Topic</p>
-                </div>
-                <div class="item item2">
-                    <p>Year</p>
-                    <h3>Title</h3>
-                    <p>Topic</p>
-                </div>
-                <div class="item item3">
-                    <p>Year</p>
-                    <h3>Title</h3>
-                    <p>Topic</p>
-                </div>
-                <div class="item item4">
-                    <p>Year</p>
-                    <h3>Title</h3>
-                    <p>Topic</p>
-                </div>
-                <!-- <ul class="p_list">
-                    <li class="web"><a href="#">Wholesale Product Web Application</a></li>
-                    <li class="web"><a href="#">Informational Business WordPress Template</a></li>
-                    <li class="web"><a href="#">Subscription Business Website Template</a></li>
-                    <li class="web"><a href="#">Blog Template</a></li>
-                    <li class="web"><a href="#">Portfolio Template</a></li>
+                <li class="pro"><a href="#">Research Assistant - VR Training Simulator</a></li>
+                <li class="pro"><a href="#">IBM Chatbot</a></li>
+                <li class="pro"><a href="#">Complex Tic-Tac-Toe</a></li>
+                <li class="pro"><a href="#">Harris Corners Algorithm</a></li>
+                <li class="pro"><a href="#">Image Stitching Algorithm</a></li>
+                <li class="pro"><a href="#">Optical Flow Algorithm</a></li>
+                <li class="pro"><a href="#">Guessing Game</a></li>
 
-                    <li class="pro"><a href="#">Research Assistant - VR Training Simulator</a></li>
-                    <li class="pro"><a href="#">IBM Chatbot</a></li>
-                    <li class="pro"><a href="#">Complex Tic-Tac-Toe</a></li>
-                    <li class="pro"><a href="#">Harris Corners Algorithm</a></li>
-                    <li class="pro"><a href="#">Image Stitching Algorithm</a></li>
-                    <li class="pro"><a href="#">Optical Flow Algorithm</a></li>
-                    <li class="pro"><a href="#">Guessing Game</a></li>
+                <li class="vr"><a href="#">Abducted - VR Escape Room</a></li>
+                <li class="vr"><a href="#">3D Model</a></li>
+                <li class="vr"><a href="#">3D Model</a></li>
+            </ul> -->
 
-                    <li class="vr"><a href="#">Abducted - VR Escape Room</a></li>
-                    <li class="vr"><a href="#">3D Model</a></li>
-                    <li class="vr"><a href="#">3D Model</a></li>
-                </ul> -->
-            </div>
-        </div>
     </section>
 
     <div class="sidebar">
