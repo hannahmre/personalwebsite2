@@ -14,7 +14,7 @@
 }
 
 .p_content {
-    overflow-y: scroll;
+    overflow-y: hidden;
     height: 80vh;
 }
 
