@@ -10,6 +10,7 @@
 
 .container-fluid {
     height: 80vh;
+    /* width: 85vw; */
     
 }
 
@@ -28,11 +29,43 @@ div.col-8 div {
     
 }
 
+.nav_title {
+    font-size: 1.9em;
+    color: #D9D2CC;
+    text-align: right;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 15px;
+    font-weight: lighter;
+}
+
+.nav_title:hover {
+    color: #747C8C;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #747C8C;
+    color: #D9D2CC;
+}
 
 
 
 
+.dropdown-menu {
+    font-size: 1.5em;
+    background-color: #747c8cab;
+    text-align: right;
+    
+}
 
+.dropdown-menu a{
+    color: #D9D2CC;
+}
+
+.dropdown-menu a:hover{
+    color: #D9D2CC;
+    background-color: #747C8C;
+}
 
 
 
