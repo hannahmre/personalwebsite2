@@ -191,10 +191,18 @@ div.col-8 div {
     font-size: 1.8em;
 }
 
-.gamebtn, .wholesalebtn, .weblink, .chatbotbtn, .wordpbtn {
+.gamebtn, .wholesalebtn, .weblink, .chatbotbtn, .wordpbtn{
     margin-top: 10px;
     position: absolute;
     right: 50%;
     -ms-transform: translateX(50%);
     transform: translateX(50%);
+}
+
+.resumebtn {
+    margin-top: 10px;
+    position: absolute;
+    right: 68%;
+    -ms-transform: translateX(68%);
+    transform: translateX(68%);
 }

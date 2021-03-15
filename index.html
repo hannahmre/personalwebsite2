@@ -72,19 +72,20 @@
                   <br></br>
                   Click my resume below to see a more detailed list of my current skills!</p>
 
-                  <button type="button" class="btn viewmore" data-toggle="modal" data-target="#resume">
+                  <button type="button" class="btn viewmore resumebtn" data-toggle="modal" data-target="#resume">
                     View Resume
                   </button>
                   <div class="modal" id="resume">
                     <div class="modal-dialog modal-lg modal-dialog-centered ">
                       <div class="modal-content">
 
-                        <div class="modal-body">
-                          <iframe src="docs/HannahMoore.pdf" alt="Resume" height="500" width="750"></iframe>
+                        <div class="modal-header" style="height: 70px;">
+                          <h4 class="modal-title">Resume</h4>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
 
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <div class="modal-body" style="text-align: center;">
+                          <iframe src="docs/HannahMoore.pdf" alt="Resume" height="500" width="750"></iframe>
                         </div>
 
                       </div>
