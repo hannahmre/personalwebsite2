@@ -29,12 +29,16 @@ div.col-8 div {
     
 }
 
+.nav {
+    margin-top: 70px;
+}
+
 .nav_title {
     font-size: 1.9em;
     color: #D9D2CC;
     text-align: right;
     margin-bottom: 50px;
-    box-shadow: 5px 5px 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     font-weight: lighter;
 }
 
@@ -53,13 +57,14 @@ div.col-8 div {
 
 .dropdown-menu {
     font-size: 1.5em;
-    background-color: #747c8cab;
+    background-color: #747c8cd2;
     text-align: right;
     
 }
 
 .dropdown-menu a{
     color: #D9D2CC;
+    font-weight: lighter;
 }
 
 .dropdown-menu a:hover{
@@ -69,11 +74,27 @@ div.col-8 div {
 
 
 
+.p_box {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 15px 0 rgba(0, 0, 0, 0.19); */
+    
+    color: #D9D2CC;
+}
+
+.p_box h1 {
+    font-weight: lighter;
+    text-align: center;
+}
 
 
+#section1 h3 {
+    /* text-align: center; */
+    font-weight: lighter;
+}
 
+.workdate {
+    /* text-align: center; */
+}
 
-
-
-
-
+#section1 p {
+    text-align: justify;
+}

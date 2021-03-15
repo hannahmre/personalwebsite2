@@ -172,12 +172,16 @@ p{
     transition: transform 0.5s;
     transform-origin: top left;
     transform: scale(0);
+	color: #fff;
+	text-decoration: none;
 }
 
 .learn:hover:before {
     transition: transform 0.5s;
     transform-origin: bottom right;
     transform: scale(1);
+	color: #fff;
+	text-decoration: none;
 }
 
 .learn:after {
@@ -194,12 +198,16 @@ p{
     transition: transform 0.5s;
     transform-origin: top left;
     transform: scale(1);
+	color: #fff;
+	text-decoration: none;
 }
 
 .learn:hover:after {
     transition: transform 0.5s;
     transform-origin: bottom right;
     transform: scale(0);
+	color: #fff;
+	text-decoration: none;
 }
 
 
