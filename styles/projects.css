@@ -178,3 +178,15 @@ div.col-8 div {
 	color: #fff;
 	text-decoration: none;
 }
+
+
+.weblink {
+    color: #747C8C;
+    font-size: 1.5em;
+}
+
+.weblink:hover {
+    color: #747C8C;
+    text-decoration: none;
+    font-size: 1.8em;
+}
