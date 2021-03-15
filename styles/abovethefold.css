@@ -107,6 +107,7 @@ section{
 	background: #333;
 	color: #fff;
 	padding: 0 5px;
+	font-weight: lighter;
 }
 
 .banner .about_header h4{
@@ -153,9 +154,14 @@ p{
 	display: inline-block;
 	text-decoration: none;
 	transform: translate(0%, -50%);
-	font-weight: 500;
+	font-weight: lighter;
 	letter-spacing: 2px;
 	margin-top: 10px;
+}
+
+.learn:hover {
+	color: #fff;
+	text-decoration: none;
 }
 
 /* About Me Button */
