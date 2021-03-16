@@ -76,7 +76,7 @@ div.col-8 div {
 
 .p_box {
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 15px 0 rgba(0, 0, 0, 0.19); */
-    
+    height: 100%;
     color: #747C8C;
 }
 
@@ -187,7 +187,7 @@ div.col-8 div {
     font-size: 1.8em;
 }
 
-.gamebtn, .wholesalebtn, .weblink, .chatbotbtn, .wordpbtn{
+.gamebtn, .wholesalebtn, .weblink, .chatbotbtn, .wordpbtn, .harrisbtn{
     margin-top: 10px;
     position: absolute;
     right: 50%;
