@@ -128,10 +128,10 @@
 @media (max-width: 1089px){
     .resumebtn {
         position: absolute;
-        right: 79%;
-        -ms-transform: translateX(79%);
-        transform: translateX(79%);
-        margin-top: -50px;
+        right: 95%;
+        -ms-transform: translateX(95%);
+        transform: translateX(95%);
+        margin-top: -30px;
     }
 	section {
         padding: 40px;
