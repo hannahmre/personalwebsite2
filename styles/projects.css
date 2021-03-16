@@ -9,7 +9,7 @@
 
 
 .container-fluid {
-    height: 80vh;
+    height: 100%;
     /* width: 85vw; */
     
 }
@@ -25,7 +25,7 @@ ul.nav-pills {
     position: absolute;
 }
 div.col-8 div {
-    height: 600px;
+    height: 100%;
     
 }
 
@@ -197,6 +197,24 @@ div.col-8 div {
     right: 50%;
     -ms-transform: translateX(50%);
     transform: translateX(50%);
+}
+
+@media (min-width: 1500px){
+    /* .p_box h1 {
+        font-size: 3em;
+    }
+    
+    
+    .p_box h3 {
+        font-size: 2.4em;
+    }
+    .p_box h5 {
+        font-size: 2em;
+    }
+    .p_box p {
+        font-size: 1.7em;
+    } */
+    
 }
 
 
