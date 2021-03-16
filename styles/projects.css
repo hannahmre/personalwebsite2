@@ -2,7 +2,7 @@
 
 
 .projects {
-    background: #B9AD86;
+    background: #D9D2CC;
     position: relative;
     max-height: 100vh;
 }
@@ -35,7 +35,7 @@ div.col-8 div {
 
 .nav_title {
     font-size: 1.9em;
-    color: #D9D2CC;
+    color: #747C8C;
     text-align: right;
     margin-bottom: 50px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
@@ -77,7 +77,7 @@ div.col-8 div {
 .p_box {
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 15px 0 rgba(0, 0, 0, 0.19); */
     
-    color: #D9D2CC;
+    color: #747C8C;
 }
 
 .p_box h1 {
@@ -106,10 +106,6 @@ div.col-8 div {
     font-weight: lighter;
 }
 
-
-/* .viewmore {
-    background-color: #747C8C;
-} */
 
 .viewmore{
 	background:#747C8C;
