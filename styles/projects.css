@@ -195,6 +195,21 @@ div.col-8 div {
     transform: translateX(50%);
 }
 
+.harrisgitbtn {
+    color: #747C8C;
+    margin-top: 60px;
+    position: absolute;
+    right: 50%;
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+}
+
+.harrisgitbtn:hover {
+    font-size: large;
+    color: #747C8C;
+    text-decoration: none;
+}
+
 @media (min-width: 1500px){
     /* .p_box h1 {
         font-size: 3em;
