@@ -199,10 +199,4 @@ div.col-8 div {
     transform: translateX(50%);
 }
 
-.resumebtn {
-    margin-top: 10px;
-    position: absolute;
-    right: 68%;
-    -ms-transform: translateX(68%);
-    transform: translateX(68%);
-}
+

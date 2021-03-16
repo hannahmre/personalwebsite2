@@ -286,3 +286,40 @@ p{
 .sci li a i:hover{
 	opacity: 1;
 }
+
+
+@media (max-width: 1147px){
+	.learn {
+		display: none;
+	}
+	
+}
+
+@media (max-width: 1089px){
+	.iconsentence {
+		display: none;
+	}
+	
+}
+
+@media (max-width: 991px){
+	
+	.banner .imgSidebar {
+		display: none;
+	} 
+
+	.sidebar {
+		width: 100%;
+		padding: 40%;
+	}
+	.banner .about_header{
+		width: 100%;
+		/* padding: 40%; */
+	}
+	.iconsentence {
+		display: inline;
+	}
+
+	
+
+}
