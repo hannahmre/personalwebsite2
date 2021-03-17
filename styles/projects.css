@@ -95,11 +95,12 @@ div.col-8 div {
 
 .p_box p {
     text-align: justify;
+    font-size: 1.4vw;
 }
 
 .modal-header {
     border: none;
-    /* font-size: large; */
+    
 }
 
 .modal-header h4 {
@@ -195,6 +196,10 @@ div.col-8 div {
     transform: translateX(50%);
 }
 
+.wholesalebtn {
+    margin-top: 0px;
+}
+
 .harrisgitbtn {
     color: #747C8C;
     margin-top: 60px;
@@ -230,12 +235,24 @@ div.col-8 div {
 
 
 @media (max-width: 1280px){
+    .p_box p {
+        font-size: 1.6vw;
+        
+    }
     .nav-link {
         font-size: 1.4em;
     }
 
     .dropdown-menu {
-        font-size: 1.4em;
+        font-size: 1.3em;
+    }
+
+    .wholesalebtn {
+        margin-top: -15px;
+    }
+
+    .wholesalep{
+        margin-top: -5px;
     }
 }
 
