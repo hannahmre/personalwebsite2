@@ -311,6 +311,12 @@ p{
 		width: 100%;
 		padding: 40%;
 	}
+	.sq {
+	    left:0;
+	    
+	}
+	
+	
 	.banner .about_header{
 		width: 100%;
 		/* padding: 40%; */
@@ -322,3 +328,43 @@ p{
 	
 
 }
+
+
+@media (max-width: 600px){
+    .flex{
+        font-size: .8em;
+    }
+    
+    .introtxt {
+    font-size: 1em;
+    margin: 20px 0 30px 0;
+    }
+}
+
+@media (max-width: 470px){
+    .introtxt {
+    margin: 20px 0 0 0;
+    }
+    
+    .banner .about_header, .sidebar {
+    padding: 50px;
+    padding-top: 100px;
+    }
+    
+    .logoText {
+        top:80px;
+        left:0;
+    }
+    
+    .sq {
+        height: 220px;
+    }
+    
+    .sci {
+        padding-left:50px;
+        bottom:80px;
+    }
+}
+
+
+

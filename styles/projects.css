@@ -78,6 +78,7 @@ div.col-8 div {
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 15px 0 rgba(0, 0, 0, 0.19); */
     height: 100%;
     color: #747C8C;
+    min-height: 100%;
 }
 
 .p_box h1 {
@@ -202,7 +203,7 @@ div.col-8 div {
 
 .harrisgitbtn {
     color: #747C8C;
-    margin-top: 60px;
+    margin-top: 45px;
     position: absolute;
     right: 50%;
     -ms-transform: translateX(50%);
@@ -213,6 +214,10 @@ div.col-8 div {
     font-size: large;
     color: #747C8C;
     text-decoration: none;
+}
+
+.harrisbtn {
+    margin-top: -10px;
 }
 
 @media (min-width: 1500px){
@@ -254,6 +259,19 @@ div.col-8 div {
     .wholesalep{
         margin-top: -5px;
     }
+}
+
+@media (max-width: 950px){
+    /*#navbarr {*/
+    /*    display: flex;*/
+    /*    flex-direction:row;*/
+    /*}*/
+    
+    .nav {
+        flex-wrap: nowrap;
+        
+    }
+    
 }
 
 @media (max-width: 911px){
