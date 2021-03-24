@@ -219,29 +219,16 @@ div.col-8 div {
 .harrisbtn {
     margin-top: -10px;
 }
-
-@media (min-width: 1500px){
-    /* .p_box h1 {
-        font-size: 3em;
-    }
-    
-    
-    .p_box h3 {
-        font-size: 2.4em;
-    }
-    .p_box h5 {
-        font-size: 2em;
-    }
-    .p_box p {
-        font-size: 1.7em;
-    } */
-    
+.borderline {
+    display:none;
 }
+
+
 
 
 @media (max-width: 1280px){
     .p_box p {
-        font-size: 1.6vw;
+        font-size: 1.4vw;
         
     }
     .nav-link {
@@ -261,20 +248,13 @@ div.col-8 div {
     }
 }
 
-@media (max-width: 950px){
-    /*#navbarr {*/
-    /*    display: flex;*/
-    /*    flex-direction:row;*/
-    /*}*/
-    
-    .nav {
-        flex-wrap: nowrap;
-        
+@media (max-width: 1089px){
+    .p_box h1 {
+        padding-top: 60px;
     }
-    
 }
 
-@media (max-width: 911px){
+@media (max-width: 960px){
     .nav-link {
         font-size: 1.4em;
     }
@@ -282,4 +262,98 @@ div.col-8 div {
     .dropdown-menu {
         font-size: 1.4em;
     }
+    
 }
+
+@media (min-width: 1000px){
+    #mobilenav {
+        display:none;
+    }
+}
+
+@media (max-width: 1000px){
+    #navbarr {
+        display:none;
+    }
+    
+    #mobilenav ul{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        font-size: 1.3vw;
+    }
+    
+    .row {
+        flex-direction: column;
+    }
+    
+    .p_content {
+        height: 11vh;
+        margin:auto;
+    }
+    
+    .p_box h1 {
+        padding-top: 10px;
+    }
+    
+}
+
+@media (max-width: 600px){
+    .mobilenav {
+        display:none;
+    }
+    .projects {
+        max-height:100%;
+    }
+    .p_content {
+        max-width: 85vw;
+        overflow-y: visible;
+        height: 100%;
+    }
+    .p_box {
+        width:100%;
+        margin-bottom:90px;
+    }
+    .p_box h1 {
+        font-size:2em;
+    }
+    
+    .p_box h3{
+        font-size: 1.4em;
+    }
+    
+    .p_box h5{
+        font-size: 1.2em;
+    }
+    
+    .p_box p{
+        font-size:.8em;
+    }
+    .borderline {
+        display:block;
+        border-bottom:1px solid #747C8C;
+        margin: 10px 0 30px 0;
+        padding-top: 40px;
+    }
+    
+    .viewmore {
+        padding: 10px 20px;
+        letter-spacing: 0px;
+    }
+    .wholesalebtn {
+        margin-top:10px;
+    }
+}
+
+@media (max-width: 440px){
+    .p_content {
+        max-width: 90vw;
+        overflow-y: visible;
+        height: 100%;
+    }
+    
+    
+    
+    
+}
+
